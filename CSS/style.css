@@ -1,3 +1,100 @@
 .hidden{
     display: none;
 }
+html{
+    height: 100%;
+}
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    color:whitesmoke;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
+}
+
+
+h2 {
+    
+    font-size: 6rem;
+    color:whitesmoke;
+    letter-spacing: 0.4rem;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
+    height: auto;
+    margin-top:0;
+    margin-bottom:0;
+}
+h1 {
+    
+    font-size: 5.5rem;
+    color:whitesmoke;
+    letter-spacing: 0.1rem;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.66);
+}
+#todo-form input::placeholder{
+    color:white;
+    position: center;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
+}
+#todo-form input{
+    color:white;
+    position: center;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
+    width: auto;
+    font-size: 35px;
+    border-radius: 40px 40px 40px 40px 40px 40px 40px 40px ;
+    background-color: unset;
+    place-content:inherit ;
+    border-color: transparent;
+    position: center;
+}
+ul{
+    list-style-type: square;
+    size: large;
+    
+}
+li{
+    font-size: 25px;
+}
+button{
+    outline:0;
+    border:unset;
+    background-color: unset;
+    opacity: 60%;
+}
+#quote p{
+    font-style: italic;
+    position: center;
+    text-align: center;
+}
+
+#weather{
+    font-size: 20px;
+    font-style: bold;
+    left: 30px;
+    top:30px;
+    
+    position: fixed;
+    
+}
+
+.txtBox10bg{ 
+    border-style: solid; 
+    border-width: 0 0 0 8px; 
+    padding: 12px; 
+    word-break: break-all; 
+} 
+.txtBox10bg { 
+    border-color: LightGray; 
+    background-color:rgba(165, 163, 163, 0.125); 
+} 

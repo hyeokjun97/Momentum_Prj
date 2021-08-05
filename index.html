@@ -5,10 +5,17 @@
         <meta name="viewport" content="width=deivce-width, inital-scale = 1.0" />
         <link rel="stylesheet" href="CSS/style.css"/>
         <title>Momentum App</title>
-    
+        <!--폰트-->
+
     </head>
     <body> 
-        <form class = "hidden" id = "login-form">
+        <div id = "weather" >
+            <p></p>
+            <p></p>
+        </div>
+        <h2 id="clock">00:00:00</h2>
+        <h1 class = "hidden" class = "style_Greet" id = "greeting" ></h1>
+        <form class = "hidden"  id = "login-form" >
             <input 
              required
              maxlength="15"
@@ -16,21 +23,18 @@
               placeholder = "What is your name?"/>
             <input type = "submit" value = "Log in"/>
         </form>
-        <h2 id="clock">00:00:00</h2>
+        
+        
 
-        <h1 class = "hidden" id = "greeting" ></h1>
         <form id="todo-form">
-            <input type ="text" placeholder="Write a To Do and Press Enter" required />
+            <input type ="text" placeholder="Write What To Do Today" required />
         </form>
         <ul id="todo-list"></ul>
         <div id = "quote">
-            <span></span>
-            <span></span>
+            <p></p>
+            <p></p>
         </div>
-        <div id = "weather">
-            <span></span>
-            <span></span>
-        </div>
+
         <script src="js/greetings.js"></script>
         <script src = "js/clock.js"></script>
         <script src = "js/quotes.js"></script>
