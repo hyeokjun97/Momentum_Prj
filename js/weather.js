@@ -1,4 +1,4 @@
-const API_KEY = "5f40677cd5e9835133d2283159553e9a";
+const API_KEY = "API_KEY";
 const border = document.getElementById("weather");
 function onGeoOk(position){
     const lat = position.coords.latitude;
